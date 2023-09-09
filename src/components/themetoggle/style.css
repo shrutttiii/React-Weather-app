@@ -1,5 +1,5 @@
 .theme_toggler {
-    background: var(--primary-color);
+    background: var(--background-image);
     z-index: 999999999;
     left: 10px;
     background: var(--primary-color);

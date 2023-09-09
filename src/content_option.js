@@ -1,47 +1,48 @@
-const logotext = "JOHN";
+const logotext = "SHRUTI";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Shruti Kulshreshtha",
+    description: "I’m Shruti Kulshreshtha emerging web developer studing in SGSITS ,Indore",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Shruti Kulshreshtha",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I am a web developer",
+        second: "I love to code",
+        third: "I create cool websites",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "hi everyone welcome to my Portfolio",
+    your_img_url: "../../assets/images/stary_night.gif",
+     
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About MySelf",
+    aboutme:"Hello, I'm Shruti, an aspiring web developer on a perpetual journey of learning and growth. Proficient in JavaScript, TypeScript, React.js, and Node.js, I am dedicated to honing my skills to create exceptional web experiences. My unwavering passion for web development fuels my drive to craft innovative and captivating websites. I am committed to delivering creative solutions that not only meet but exceed expectations. Feel free to explore my portfolio, and let's connect."
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "TDI Intern",
+        where: "Deutsche Bank ",
+        date: "2023",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    // {
+    //     jobtitle: "Designer of week",
+    //     where: "Jamalya",
+    //     date: "2019",
+    // },
+    // {
+    //     jobtitle: "Designer of week",
+    //     where: "ALquds",
+    //     date: "2019",
+    // },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "C/C++",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Data Structure",
         value: 85,
     },
     {
@@ -51,10 +52,6 @@ const skills = [{
     {
         name: "React",
         value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
     },
 ];
 
@@ -136,9 +133,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "07shrutikulsh@gmail.com",
+    LinkedIn: "https://www.linkedin.com/in/shruti-kulshreshtha-41b02a203/",
+    description: "Hello you can contact me here ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -148,9 +145,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/shruti-kulshreshtha-41b02a203/",
 };
 export {
     meta,
@@ -158,7 +153,7 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
+     services,
     introdata,
     contactConfig,
     socialprofils,
